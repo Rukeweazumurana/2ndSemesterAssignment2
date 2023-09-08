@@ -88,3 +88,16 @@ button {
   padding: 50px; /* Add padding for spacing */
   text-align: center; /* Center content horizontally */
 }
+@media (max-width:900px){
+  .buttons{
+  gap: 5px;
+    flex-wrap: wrap;
+  }
+  .grid-container {
+    width: 250px;
+    grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+  }
+  .grid-container2 {
+    width: 250px;
+    grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
+}
