@@ -1,0 +1,90 @@
+#root {
+  width: 100%;
+}
+.background2 {
+  background-color: #a63f9f;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card2 {
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 16px;
+
+  text-align: center;
+  width: 700px;
+
+  max-width: 500px;
+  margin: 0 auto;
+}
+.random {
+  font-size: 20px;
+}
+button {
+  padding: 10px;
+}
+.number {
+  margin-top: 10px;
+  color: #a63f9f;
+  font-size: 50px;
+}
+.buttons {
+  justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  gap: 5px;
+}
+.card-container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 350px;
+  align-items: center;
+  width: 500px;
+}
+
+.card {
+  border: 1px solid black;
+  border-style: dotted;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 500px;
+  margin-top: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  margin: auto;
+  width: 500px;
+  margin-top: 70px;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 16px; /* Adjust the gap between columns as needed */
+}
+.grid-container2 {
+  display: grid;
+  margin: auto;
+  width: 500px;
+  margin-top: 10px;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+  gap: 16px; /* Adjust the gap between columns as needed */
+  margin-bottom: 50px;
+}
+.grid-item {
+  background-color: #ffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Set the background color of each column */
+  padding: 50px; /* Add padding for spacing */
+  text-align: center; /* Center content horizontally */
+}
