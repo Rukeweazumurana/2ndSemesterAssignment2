@@ -38,66 +38,9 @@ button {
   display: flex;
   gap: 5px;
 }
-.card-container {
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 350px;
-  align-items: center;
-  width: 500px;
-}
-
-.card {
-  border: 1px solid black;
-  border-style: dotted;
-  border-radius: 8px;
-  padding: 16px;
-  text-align: center;
-  width: 500px;
-  margin-top: 20px;
-  max-width: 300px;
-  margin: 0 auto;
-}
-
-.grid-container {
-  display: grid;
-  margin: auto;
-  width: 500px;
-  margin-top: 70px;
-  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-  gap: 16px; /* Adjust the gap between columns as needed */
-}
-.grid-container2 {
-  display: grid;
-  margin: auto;
-  width: 500px;
-  margin-top: 10px;
-  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-  gap: 16px; /* Adjust the gap between columns as needed */
-  margin-bottom: 50px;
-}
-.grid-item {
-  background-color: #ffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Set the background color of each column */
-  padding: 50px; /* Add padding for spacing */
-  text-align: center; /* Center content horizontally */
-}
 @media (max-width:900px){
   .buttons{
   gap: 5px;
     flex-wrap: wrap;
   }
-  .grid-container {
-    width: 250px;
-    grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
-  }
-  .grid-container2 {
-    width: 250px;
-    grid-template-columns: repeat(2, 1fr); /* Creates 4 equal-width columns */
 }
